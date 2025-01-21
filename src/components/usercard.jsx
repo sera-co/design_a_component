@@ -1,1 +1,21 @@
 // write the component code here
+import React from "react";
+
+const Usercard=()=>{
+    const profilePhoto="";
+    const name="Sera Shine";
+    const email="sera@gmail.com"
+    const phoneNumber="1234568790"
+    const address="123 Main Street"
+
+    return(
+        <div>
+        <img src={profilePhoto}/>
+        <h2>{name}</h2>
+        <p>{email}</p>
+        <p>{phoneNumber}</p>
+        <p>{address}</p>
+        </div>
+    )
+}
+export default Usercard;
